@@ -28,7 +28,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  background-image: url("cream.png");
+  background-image: url("images/cream.png");
 }
 body {
   color: #333;
@@ -197,7 +197,7 @@ body {
 }
 
 #box {
- background-color: #DAE5EC;
+ background-color: #E9E9E9;
  opacity: 0.8;
  /*border: 2px solid purple;*/
 }
