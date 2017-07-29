@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #333;
 }
 
 /* Custom default button */
@@ -15,7 +15,7 @@ a:hover {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
+  background-color: #333;
   border: 1px solid #fff;
 
 }
@@ -27,10 +27,11 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #fff;
+  background-image: url("cream.png");
 }
 body {
-  color: #fff;
+  color: #333;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
@@ -78,7 +79,7 @@ body {
   padding-left: 50px;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #333; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -91,8 +92,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #333;
+  border-bottom-color: #333;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +111,7 @@ body {
  */
 
 .cover {
-  padding: 0px ;
+  padding: 100px ;
 }
 .cover .btn-lg {
   padding: 10px 20px;
@@ -159,7 +160,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 1170px;
+   width: 1170px;
   }
 }
 
@@ -179,7 +180,8 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+  border: 1px solid #333
 }
 
 /* Thin out the marketing headings */
@@ -187,4 +189,15 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+
+/* div jumbotron */
+.jumbotron{
+  width:100%;
+}
+
+#box {
+ background-color: #DAE5EC;
+ opacity: 0.8;
+ /*border: 2px solid purple;*/
 }
