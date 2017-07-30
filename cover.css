@@ -116,11 +116,12 @@ body {
 /* Cover */
 
 .cover {
-  padding: 60px ;
+  padding: 0px;
 }
 .cover .btn-lg {
-  padding: 10px 20px;
+  padding: 0px 0px;
   font-weight: bold;
+  position: relative;
 }
 
 /* Affix and center */
@@ -129,19 +130,15 @@ body {
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
-    top: 0;
+    top: 0px;
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
+
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
   /* Handle the widths */
   .masthead,
-  .mastfoot,
   .cover-container {
    width: 100%; /* Must be percentage or pixels for horizontal alignment */
 
@@ -150,7 +147,6 @@ body {
 
 @media (min-width: 992px) {
   .masthead,
-  .mastfoot,
   .cover-container {
    max-width: 1170px; /*changing this to 100% probably fixes the issue*/
   }
@@ -181,13 +177,19 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+/* header jumbotron */
+.jumbotronhead{
+  width:100%;
+  background-color: #CAEBF2;
+
+}
 
 /* div jumbotron */
 .jumbotron{
   width:100%;
+  background-color: #E9E9E9;
 }
 
 #box {
- background-color: #E9E9E9;
  opacity: 0.8;
 }
