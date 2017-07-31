@@ -125,6 +125,10 @@ body {
   position: relative;
 }
 
+#rsg {
+  z-index: 1;
+}
+
 /* Affix and center */
 
 @media (min-width: 768px) {
