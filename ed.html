@@ -1,21 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
    <head>
-      <title>Education Demo</title>
+      <title>AJAX Standalone Demo</title>
    </head>
    <body>
-      <h1>Education Standalone Demo</h1>
+      <h1>AJAX Standalone Demo</h1>
 
       <div style="position: absolute; width: calc(100% - 40px); height: calc(100% - 120px)" >
-        <oracle-dv project-path="/users/cloud.user/Education"></oracle-dv>
-
-        <iframe src="http://129.146.152.91:9704/dv/ui/project.jsp?pageid=visualAnalyzer&reportmode=full&reportpath=%2Fusers%2Fcloud.user%2FEducation";width=1000px ,height=2000px></iframe>
-
-        <oracle-dv project-path="/users/cloud.user/Education" active-page="canvas" active-tab-id="1"></oracle-dv>
+      
+      <script src="http://oacv901r1appliance-oac20-e1exphiv.srv.ravcloud.com/dv/ui/api/v1/plugins/embedding/standalone/embedding.js" type="application/javascript" width="100%, height="480></script>
+      <oracle-dv project-path="/users/admin/WSP- Financial Dashboard Rohit\/Sammi" active-page="canvas" active-tab-id="1"></oracle-dv>
+      
       </div>
 
-     <script>
-      requirejs(['knockout', 'ojs/ojcore', 'ojs/ojknockout', 'ojs/ojcomposite', 'jet-composites/oracle-dv/loader'], function(ko) {   ko.applyBindings(); });
-     </script>
+   <script>
+requirejs(['knockout', 'ojs/ojcore', 'ojs/ojknockout', 'ojs/ojcomposite', 'jet-composites/oracle-dv/loader'], function(ko) {   ko.applyBindings();
+});
+      </script>
    </body>
-   
 </html>
