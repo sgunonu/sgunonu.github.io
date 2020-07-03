@@ -17,17 +17,13 @@
 
  <!-- <a-plane material='opacity: 1;' color="white" src="https://raw.githubusercontent.com/saipriyabalu/Foodrescuers/master/2.jpg" gps-entity-place="latitude: 29.9; longitude: -95.66019;" scale="3 3 3" />-->
  <!--  <a-plane color="white" rotation="-90 0 0" position="0 -0.25 0" width="3" material="transparent: true; opacity: 0.90" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/ar/arrow.png" gps-entity-place="latitude: 29.9; longitude: -95.66019;" scale="3 3 3" ></a-plane>
-	<a-camera gps-camera rotation-reader></a-camera> -->
+	<a-camera gps-camera rotation-reader></a-camera> 
 	 
-  <a-text
-      value="This content will always face you."
-      look-at="[gps-camera]"
-      scale="120 120 120"
-      gps-entity-place="latitude: 29.64177; longitude: -95.66019;"
-  ></a-text>
-  <a-camera gps-camera rotation-reader> </a-camera>
+  <a-box color="yellow" gps-projected-entity-place="latitude: <your-latitude>; longitude: <your-longitude>" position="0 30 0"/>
+  <a-camera gps-camera rotation-reader> </a-camera>-->
 	 
-	 
+	<a-camera gps-projected-camera rotation-reader></a-camera>
+	 <a-box color="yellow" gps-projected-entity-place="latitude: <your-latitude>; longitude: <your-longitude>"/>
 	 
  	<a-entity camera></a-entity>  
   </a-scene>
