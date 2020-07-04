@@ -4,27 +4,10 @@
 <script src="js/aframe-text-geometry-component.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs='sourceType: webcam;'>
-		
-	<a-assets>
-	<img id="earth-sphere" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg" />
-        <img id="xpos" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-        <img id="xneg" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-        <img id="ypos" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-        <img id="yneg" src="ihttps://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-        <img id="zpos" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-        <img id="zneg" src="https://raw.githubusercontent.com/sgunonu/sgunonu.github.io/master/fr-volunteers/images/side2.jpg">
-	</a-assets>
 
-    <!-- 
-    for more info, see: https://aframe.io/docs/1.0.0/components/animation.html 
-    for more examples:  https://stemkoski.github.io/A-Frame-Examples/animation.html
-    -->
     
     <a-marker preset='kanji'>
-        <a-box position="0 0.5 0"
-               multisrc="srcs:#xpos,#xneg,#ypos,#yneg,#zpos,#zneg"
-               material="transparent: true; opacity: 0.95; side: double;">
-        </a-box>
+        <a-box material='opacity: 1;' color="white" src="https://raw.githubusercontent.com/saipriyabalu/Foodrescuers/master/zerowaste.jpg" scale="2 2 2" />
     </a-marker>
 
  		<a-marker preset='hiro'>
